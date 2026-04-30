@@ -1,0 +1,23 @@
+Package: descriptiveStats
+Title: Package that implements descriptive statistics functions
+Version: 0.0.0.9000
+Authors@R: person(
+  given = "Gilberte", 
+  family = "Martine-Edith", 
+  email = "gilberte.martine_edith@kcl.ac.uk", 
+  role = c("aut", "cre")
+  )
+Description: Implements descriptive statistics functions for data exploration. It includes methods to calculate mean, median, mode and quartiles.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 4.2)
+Imports:
+    stats, 
+    checkmate, 
+    DescTools
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
